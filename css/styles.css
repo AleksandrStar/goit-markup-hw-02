@@ -1,0 +1,19 @@
+body {
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: #e5e5e5;
+}
+/* цвет основного текста*/
+
+.logo {
+}
+.site-nav:focus {
+  color: 2196f3;
+}
+.auth-nav:hover,
+.auth-nav:focus {
+  color: 2196f3;
+}
+.button:focus {
+  color: 2196f3;
+}
