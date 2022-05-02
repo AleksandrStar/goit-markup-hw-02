@@ -1,23 +1,158 @@
-.body {
-  font-family: "Raleway", sans-serif;
-
-  background-color: #e5e5e5;
+body {
+/* Цвет фона */
+  background-color: E5E5E5;
+/* Доминантный шрифт */
+  font-family: roboto, sans-serif;
+/* Цвет основного текста */
+  color: 212121;
+/* Вес основного шрифта */
+  font-weight: 400;
 }
-/* цвет основного текста*/
+/* Убрали маркеры неупорядоченого списка */
+.navigation-list,
+.contacts-list,
+.priority-list,
+.activity-list,
+.command-list,
+.button-list,
+.filter-list {
+  list-style: none;
+}
 
+
+/* Вторичный цвет текста */ 757575
+
+/* Белый цвет текста */ FFFFFF
+
+/* Акцент цвета текста */ 2196F3
+
+
+/* Вторичный цвет фона */ 2F303A
+
+
+
+
+
+/* Ссылка с логотипом */
 .logo {
-  font-family: "Roboto", sans-serif;
+  color: #2196F3;
 }
-.logo-accent {
-  color: 2196f3;
+.accent {
+  color: inherit;
+  font-family: raleway;
+  font-weight: 700;
+  font-size: 26px;
+  Line-height: 1.19;
 }
-.site-nav:focus {
-  color: 2196f3;
+/* Список навигации */
+.navigation-list .link {
+  font-weight: 500;
+  font-size: 14px;
+  Line-height: 1.14;
+  color: #212121;
 }
-.auth-nav:hover,
-.auth-nav:focus {
-  color: 2196f3;
+.navigation-list .link:hover,
+.navigation-list .link:focus {
+  color: #2196F3;
 }
+
+ /* Список контактов */
+ .contacts-list .email {
+  font-weight: 500;
+  font-size: 14px;
+  Line-height: 1.14;
+  color: #212121;
+}
+.contacts-list .email:hover,
+.contacts-list .email:focus {
+  color: #2196F3;
+}
+ .contacts-list .phone {
+  color: #212121;
+}
+.contacts-list .phone:hover,
+.contacts-list .phone:focus {
+  color: #2196F3;
+}
+/* Заглавие */
+.title {
+  font-weight: 900;
+  font-size: 44px;
+  Line-height: 1.36;
+  color: #FFFFFF;
+}
+/* Кнопка заказа услуги и фильтр из списка кнопок портфолио*/
+.button:hover,
 .button:focus {
-  color: 2196f3;
+  color: #FFFFFF;
+  background-color:#2196F3;
 }
+/* Кнопка заказа услуги */
+.btn-button {
+  font-weight: 700;
+  font-size: 16px;
+  Line-height: 1.87;
+}
+/* Кнопки фильтров из списка кнопок портфолио*/
+.button-list-button {
+  font-weight: 500;
+  font-size: 16px;
+  Line-height: 1.62;
+}
+/* Приемущества работы */
+.subtitle-priority {
+  font-weight: 700;
+  font-size: 14px;
+  Line-height: 1.17;
+}
+/* Текстовый контент к приемуществам работы */
+.text {
+  font-size: 14px;
+  Line-height: 1.71;
+  color: #757575;
+}
+/* Чем мы занмаемся */
+.subject {
+  font-weight: 700;
+  font-size: 36px;
+  Line-height: 1.17;
+}
+/* Наша команда */
+.heading {
+  font-weight: 700;
+  font-size: 36px;
+  Line-height: 1.17;
+}
+/* Список имен представителей нашей команди */
+.items {
+  font-weight: 500;
+  font-size: 16px;
+  Line-height: 1.17;
+}
+/* Должности представителей нашей команды */
+.position {
+  font-size: 16px;
+  Line-height: 1.17;
+  color: #757575;
+}
+/* Контент фильтрующигося списком портфолио */
+.content {
+  font-weight: 700;
+  font-size: 18px;
+  Line-height: 2;
+}
+/* Направление контента фильтрующигося списком портфолио */
+.content-direction {
+  font-weight: 400;
+  font-size: 16px;
+  Line-height: 1.87;
+  color: #757575;
+}
+/* Почтовый адрес */
+.office {
+  font-weight: 400;
+  font-size: 14px;
+  Line-height: 1.71;
+  color: #FFFFFF;
+}
+
