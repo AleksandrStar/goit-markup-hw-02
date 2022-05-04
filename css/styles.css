@@ -1,22 +1,20 @@
+:root {
+
+}
 body {
-/* Цвет фона */
-  background-color: E5E5E5;
-/* Доминантный шрифт */
-  font-family: roboto, sans-serif;
-/* Цвет основного текста */
-  color: 212121;
-/* Вес основного шрифта */
-  font-weight: 400;
+  background-color: #FFFFFF;
+  color: #212121;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
 /* Убрали маркеры неупорядоченого списка */
-.navigation-list,
-.contacts-list,
-.priority-list,
-.activity-list,
-.command-list,
-.button-list,
-.filter-list {
+.list {
   list-style: none;
+}
+/* Убираем декорацыю текста */
+.link {
+  text-decoration: none;
 }
 /* Ссылка с логотипом */
 .logo {
@@ -24,17 +22,18 @@ body {
 }
 .accent {
   color: inherit;
-  font-family: raleway;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   Line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 /* Список навигации */
 .navigation-list .link {
   font-weight: 500;
-  font-size: 14px;
   Line-height: 1.14;
   color: #212121;
+  letter-spacing: 0.02em;
 }
 .navigation-list .link:hover,
 .navigation-list .link:focus {
@@ -44,7 +43,6 @@ body {
  /* Список контактов */
  .contacts-list .email {
   font-weight: 500;
-  font-size: 14px;
   Line-height: 1.14;
   color: #212121;
 }
@@ -65,6 +63,7 @@ body {
   font-size: 44px;
   Line-height: 1.36;
   color: #FFFFFF;
+  letter-spacing: 0.06em;
 }
 /* Кнопка заказа услуги и фильтр из списка кнопок портфолио*/
 .button:hover,
@@ -77,6 +76,7 @@ body {
   font-weight: 700;
   font-size: 16px;
   Line-height: 1.87;
+  letter-spacing: 0.06em;
 }
 /* Кнопки фильтров из списка кнопок портфолио*/
 .button-list-button {
@@ -87,12 +87,11 @@ body {
 /* Приемущества работы */
 .subtitle-priority {
   font-weight: 700;
-  font-size: 14px;
   Line-height: 1.17;
 }
 /* Текстовый контент к приемуществам работы */
 .text {
-  font-size: 14px;
+  font-weight: 400;
   Line-height: 1.71;
   color: #757575;
 }
@@ -116,6 +115,7 @@ body {
 }
 /* Должности представителей нашей команды */
 .position {
+  font-weight: 400;
   font-size: 16px;
   Line-height: 1.17;
   color: #757575;
@@ -125,6 +125,7 @@ body {
   font-weight: 700;
   font-size: 18px;
   Line-height: 2;
+  letter-spacing: 0.06em;
 }
 /* Направление контента фильтрующигося списком портфолио */
 .content-direction {
@@ -136,8 +137,8 @@ body {
 /* Почтовый адрес */
 .office {
   font-weight: 400;
-  font-size: 14px;
   Line-height: 1.71;
   color: #FFFFFF;
+  font-style: normal;
 }
 
