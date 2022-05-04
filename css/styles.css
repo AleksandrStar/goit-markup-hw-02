@@ -6,6 +6,7 @@ body {
   color: #212121;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
+  font-style: normal;
   letter-spacing: 0.03em;
 }
 /* Убрали маркеры неупорядоченого списка */
@@ -17,11 +18,22 @@ body {
   text-decoration: none;
 }
 /* Ссылка с логотипом */
-.logo {
+.logo .accent {
   color: #2196F3;
 }
-.accent {
-  color: inherit;
+.logo {
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  Line-height: 1.19;
+}
+/* Ссылка с логотипом футер*/
+.logo-footer .accent {
+  color: #2196F3;
+}
+.logo-footer {
+  color: #FFFFFF;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -39,22 +51,43 @@ body {
 .navigation-list .link:focus {
   color: #2196F3;
 }
-
+.navigation-list .current {
+  color: #2196F3;
+}
  /* Список контактов */
  .contacts-list .email {
   font-weight: 500;
   Line-height: 1.14;
-  color: #212121;
+  letter-spacing: 0.02em;
+  color: #757575;
 }
 .contacts-list .email:hover,
 .contacts-list .email:focus {
   color: #2196F3;
 }
- .contacts-list .phone {
-  color: #212121;
+.contacts-list .phone {
+  color: #757575;
 }
 .contacts-list .phone:hover,
 .contacts-list .phone:focus {
+  color: #2196F3;
+}
+ /* Список контактов футера*/
+ .contacts-list .email-footer {
+  font-weight: 400;
+  Line-height: 1.71;
+  color: #FFFFFF;
+  color: rgba(255, 255, 255, 0.6);
+}
+.contacts-list .email-footer:hover,
+.contacts-list .email-footer:focus {
+  color: #2196F3;
+}
+ .contacts-list .phone-footer {
+  color: #FFFFFF;
+}
+.contacts-list .phone-footer:hover,
+.contacts-list .phone-footer:focus {
   color: #2196F3;
 }
 /* Заглавие */
@@ -76,6 +109,9 @@ body {
   font-weight: 700;
   font-size: 16px;
   Line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
   letter-spacing: 0.06em;
 }
 /* Кнопки фильтров из списка кнопок портфолио*/
@@ -83,6 +119,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   Line-height: 1.62;
+  text-align: center;
 }
 /* Приемущества работы */
 .subtitle-priority {
@@ -139,6 +176,9 @@ body {
   font-weight: 400;
   Line-height: 1.71;
   color: #FFFFFF;
-  font-style: normal;
+}
+.office:hover,
+.office:focus {
+  color: #2196F3;
 }
 
