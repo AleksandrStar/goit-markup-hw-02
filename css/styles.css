@@ -14,9 +14,7 @@
   /* Цвет фона */
   --dark-bg: #2F303A;
   --secondary-bg: #F5F4FA;
-  --header-background: #ECECEC;
-  --portfolio-background: #EEEEEE;
- /* Акцент цвета текста и фона*/
+  /* Акцент цвета текста и фона*/
   --accent-color: #2196F3;
 }
   body {
@@ -24,7 +22,7 @@
   color: var(--basic-color);
   font-size: 14px;
   letter-spacing: 0.03em;
-  background-color:var(--secondary-bg)
+  background-color:#FFFFFF;
 }
 .visually-hidden {
   position: absolute;
@@ -41,12 +39,6 @@
 /* Фон */
 .footer {
   background-color: var(--dark-bg);
-}
-.header {
-  background-color: var(--header-background);
-}
-.portfolio {
-  background-color: var(--portfolio-background);
 }
 .secondary {
   background-color: var(--secondary-bg);
@@ -183,7 +175,8 @@
 /* Приемущества работы */
 .subtitle-priority {
   font-weight: 700;
-  line-height: 1.17;
+  line-height: 1.14;
+  font-size: 14px;
   color: var(--basic-color);
   text-transform: uppercase;
 }
@@ -212,7 +205,7 @@
 /* Список имен представителей нашей команди */
 .items {
   font-weight: 500;
-  line-height: 1.17;
+  line-height: 1.19;
   font-size: 16px;
   text-align: center;
   color: var(--basic-color);
@@ -220,7 +213,7 @@
 /* Должности представителей нашей команды */
 .position {
   font-weight: 400;
-  line-height: 1.17;
+  line-height: 1.19;
   font-size: 16px;
   text-align: center;
   color: var(--secondary-color);
