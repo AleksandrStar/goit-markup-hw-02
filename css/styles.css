@@ -16,6 +16,7 @@
   --secondary-bg: #F5F4FA;
   /* Акцент цвета текста и фона*/
   --accent-color: #2196F3;
+  --accent-color-hover: #1d86db;
 }
   body {
   font-family: var(--main-font);
@@ -54,23 +55,13 @@
 .link {
   text-decoration: none;
 }
+/* ------------- Шапка ------------- */
 /* Ссылка с логотипом */
 .logo .accent {
   color: var(--accent-color);
 }
 .logo {
   color: var(--main-font);
-  font-family: var(--secondary-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-}
-/* Ссылка с логотипом футер*/
-.logo-footer .accent {
-  color: var(--accent-color);
-}
-.logo-footer {
-  color: var(--logo-footer);
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
@@ -113,29 +104,7 @@
 .contacts-list .phone:focus {
   color: var(--accent-color);
 }
- /* Список контактов футера */
- .contacts-list .email-footer {
-  line-height: 1.71;
-  font-weight: 400;
-  font-style: normal;
-  color: var(--contacts-footer);
-  color: var(--contacts-list-footer);
-}
-.contacts-list .email-footer:hover,
-.contacts-list .email-footer:focus {
-  color: var(--accent-color);
-}
-.contacts-list .phone-footer {
-  line-height: 1.71;
-  font-weight: 400;
-  font-style: normal;
-  color: var(--contacts-footer);
-  color: var(--contacts-list-footer);
-}
-.contacts-list .phone-footer:hover,
-.contacts-list .phone-footer:focus {
-  color: var(--accent-color);
-}
+/* ------------- Герой ------------- */
 /* Заглавие */
 .title {
   font-weight: 900;
@@ -146,32 +115,22 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-/* Кнопка заказа услуги и фильтр из списка кнопок портфолио*/
-.button:hover,
-.button:focus {
-  color: var(--button);
-  background-color:var(--accent-color);
-  cursor: pointer;
-  font-family: inherit;
-}
 /* Кнопка заказа услуги */
-.btn-button {
+.button {
+  font-family: var(----main-font);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
+  background-color:var(--accent-color);
+  color: var(--button);
+  cursor: pointer;
 }
-/* Кнопки фильтров из списка кнопок портфолио*/
-.button-list-button {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  color: var(--basic-color);
+.button:hover,
+.button:focus {
+  background-color:var(--accent-color-hover);
 }
+/* ------------- Приемущества ------------- */
 /* Приемущества работы */
 .subtitle-priority {
   font-weight: 700;
@@ -186,6 +145,7 @@
   line-height: 1.71;
   color: var(--secondary-color);
 }
+/* ------------- Работы ------------- */
 /* Чем мы занмаемся */
 .subject {
   font-weight: 700;
@@ -194,6 +154,7 @@
   text-align: center;
   color: var(--basic-color);
 }
+/* ------------- Команда ------------- */
 /* Наша команда */
 .heading {
   font-weight: 700;
@@ -218,6 +179,23 @@
   text-align: center;
   color: var(--secondary-color);
 }
+/* ------------- Портфолио -------------*/
+/* Кнопки фильтров из списка кнопок портфолио*/
+.portfolio-btn {
+  font-family: var(----main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  background-color:var(--secondary-bg);
+  color: var(--basic-color);
+  cursor: pointer;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background-color:var(--accent-color);
+  color: var(--button);
+}
 /* Контент фильтрующигося списком портфолио */
 .content {
   font-weight: 700;
@@ -233,6 +211,41 @@
   font-size: 16px;
   line-height: 1.87;
   color: var(--secondary-color);
+}
+/* ------------- Подвал ------------- */
+/* Ссылка с логотипом футера*/
+.logo-footer .accent {
+  color: var(--accent-color);
+}
+.logo-footer {
+  color: var(--logo-footer);
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+/* Список контактов футера */
+ .contacts-list .email-footer {
+  line-height: 1.71;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--contacts-footer);
+  color: var(--contacts-list-footer);
+}
+.contacts-list .email-footer:hover,
+.contacts-list .email-footer:focus {
+  color: var(--accent-color);
+}
+.contacts-list .phone-footer {
+  line-height: 1.71;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--contacts-footer);
+  color: var(--contacts-list-footer);
+}
+.contacts-list .phone-footer:hover,
+.contacts-list .phone-footer:focus {
+  color: var(--accent-color);
 }
 /* Почтовый адрес */
 .office {
